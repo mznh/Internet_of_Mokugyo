@@ -4,9 +4,6 @@
 require 'sinatra'
 require 'sinatra/reloader'
 require 'haml'
-require 'pi_piper'
-include PiPiper
-
 
 
 $pokureru 
