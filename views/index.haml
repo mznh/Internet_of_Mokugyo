@@ -1,54 +1,54 @@
 !!! 5
 %head{lang:"ja"}
-	%title
-		Internet of Mokugyo
-	%meta{content:"text/html",charset:"UTF-8"}
-	%meta{name:"viewport",content:"width=device-width,initial-scale=1"}
-	%link{rel:"stylesheet",type:"text/css",href:"./style.css"}
-	%script{type:"text/javascript",src:"./button.js"}
-	%script{src:"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
+  %title
+    Internet of Mokugyo
+  %meta{content:"text/html",charset:"UTF-8"}
+  %meta{name:"viewport",content:"width=device-width,initial-scale=1"}
+  %link{rel:"stylesheet",type:"text/css",href:"./style.css"}
+  %script{type:"text/javascript",src:"./button.js"}
+  %script{src:"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
 %body
-	#title
-		%h1
-			Internet of Mokugyo
-	#mokugyo
-		%a#button{href:"javascript:void(0)",onclick:"poku()"}<
-			%img#pic{src:"./mokugyo.png"}
-	#text 
-		%p
-			仏の心、癒しの音色。 
-		%a.twitter-share-button{ 'data-show-count':"false", href:"https://twitter.com/share?ref_src=twsrc%5Etfw"}
-			Tweet
-		%script{async:"",charset:"utf-8",src:"https://platform.twitter.com/widgets.js"}
+  #title
+    %h1
+      Internet of Mokugyo
+  #mokugyo
+    %a#button{href:"javascript:void(0)",onclick:"poku()"}<
+      %img#pic{src:"./mokugyo.png"}
+  #text 
+    %p
+      仏の心、癒しの音色。 
+    %a.twitter-share-button{ 'data-show-count':"false", href:"https://twitter.com/share?ref_src=twsrc%5Etfw"}
+      Tweet
+    %script{async:"",charset:"utf-8",src:"https://platform.twitter.com/widgets.js"}
 
-	#about_me
-		%table#link<
-			%tr
-				%td<>
-					%h4<>
-						Contact
-			%tr
-				%td<>
-					twitter
-				%td<>
-					%a{href:"https://twitter.com/mznh"}<>
-						@mznh
-			%tr
-				%td<>
-					home page
-				%td<>
-					%a{href:"http://mznh.jp"}<
-						mznh.jp
-	#credits
-		%hr
-		%p#credit
-			木魚 イラスト
-			%a{href:"https://www.irasutoya.com"}<>
-				いらすとや
-			%br
-			木魚 効果音
-			%a{href:"http://www.kurage-kosho.info/others.html"}<>
-				フリー効果音素材 くらげ工匠
-	#resource
-		%audio#mokugyo_sound{preload:"auto"}
-			%source{src:"./wood-block01.mp3",type:"audio/mp3"}
+  #about_me
+    %table#link<
+      %tr
+        %td<>
+          %h4<>
+            Contact
+      %tr
+        %td<>
+          twitter
+        %td<>
+          %a{href:"https://twitter.com/mznh"}<>
+            @mznh
+      %tr
+        %td<>
+          home page
+        %td<>
+          %a{href:"http://mznh.jp"}<
+            mznh.jp
+  #credits
+    %hr
+    %p#credit
+      木魚 イラスト
+      %a{href:"https://www.irasutoya.com"}<>
+        いらすとや
+      %br
+      木魚 効果音
+      %a{href:"http://www.kurage-kosho.info/others.html"}<>
+        フリー効果音素材 くらげ工匠
+  #resource
+    %audio#mokugyo_sound{preload:"auto"}
+      %source{src:"./wood-block01.mp3",type:"audio/mp3"}
